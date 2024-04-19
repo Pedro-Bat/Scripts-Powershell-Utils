@@ -7,7 +7,3 @@ $cabecalho = "NomeMáquina, UltimoLogin" |Out-File -FilePath "C:\all_Computers.c
         $datetime = [datetime]::FromFileTime($filetime)
         $output = "$nome,$datetime" | Out-File -FilePath "C:\all_Computers.csv" -Append
  }
-
- Get-WmiObject -Class Win32_Service | Where-Object {$_.StartMode -eq "Disabled"} | Select-Object DisplayName, Name, StartMode
- Get-Service | Where-Object { $_.Status -eq 'Running' }
- Get-WmiObject -Class Win32_Service | Select-Object DisplayName, Name, StartMode
