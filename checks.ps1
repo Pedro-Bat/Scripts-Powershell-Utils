@@ -51,7 +51,7 @@ $html = @"
     <li><strong>Nome da Maquina:</strong> $nomeMaquina</li>
     <li><strong>Fabricante:</strong> $fabricante</li>
     <li><strong>Modelo:</strong> $modelo</li>
-    <li><strong>Esta em Domínio:</strong> $emDominio</li>
+    <li><strong>Esta em Dominio:</strong> $emDominio</li>
     <li><strong>Dominio / Grupo de Trabalho:</strong> $dominio</li>
     <li><strong>Numero de Serie:</strong> $serial</li>
 </ul>
